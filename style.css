@@ -104,37 +104,91 @@ body {
     margin-top: 29px;
 }
 
-/*main-contetn css*/
+/*main-contetn css start*/
 
 .main-content {
-    height: 8754px;
-    padding-top: 74px;
+    /* height: 8754px; */
+    padding: 74px 15px 116px;
 }
 
+.main-content > div {
+    margin-bottom: 95px;
+}
+/* advantages css */
 
+.advantage-block {
+    margin-bottom: 40px;
+}
 .advantages .number {
-    display: block;
+    /* display: inline-block; */
 /* Style for "03" */
-width: 91px;
+/* vertical-align: top; */
+width: 83px;
 height: 58px;
 opacity: 0.26;
 color: #fea052;
 font-family: "Playfair Display";
 font-size: 85px;
-font-weight: 700;
+font-weight: bold;
+line-height: 43px;
 /* Text style for "0, 3" */
 letter-spacing: 0.28px;
-margin-bottom: 50px;
+margin-bottom: 25px;
+
 }
 .advantages h2 {
-    display: block;
+    /* display: block; */
+    /* Style for "Мы - профе" */
+width: 246px;
+height: 49px;
+color: #1a292f;
+font-family: "Raleway - Semi Bold";
+font-size: 24px;
+font-weight: normal;
+margin-bottom: 23px;
 }
 
+.advantages .text-block {
+    /* Style for "Ценовая по" */
+width: 280px;
+height: 138px;
+color: #838383;
+font-family: Raleway;
+font-size: 18px;
+font-weight: 300;
+line-height: 25px;
+/* Text style for "Ценовая по" */
+letter-spacing: 0.64px;
+}
+
+/* portfolio css */
+
+.portfolio h2 {
+    /* Style for "Портфолио" */
+width: 259px;
+height: 41px;
+color: #00203a;
+font-family: "Playfair Display";
+font-size: 45px;
+font-weight: 700;
+line-height: 28px;
+/* Text style for "П, ортфоли" */
+letter-spacing: 0.32px;
+padding-left:13px;
+margin-bottom: 42px;
+}
+
+.portfolio-menu {
+    list-style: none;
+}
+
+.portfolio li {
 
 
-
-
-
+color: #bababa;
+font-family: Raleway;
+font-size: 22px;
+}
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
     /* .wrapper{
