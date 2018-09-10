@@ -180,6 +180,7 @@ margin-bottom: 42px;
 
 .portfolio-menu {
     list-style: none;
+    margin-bottom: 39px;
 }
 
 .portfolio li {
@@ -188,6 +189,17 @@ margin-bottom: 42px;
 color: #bababa;
 font-family: Raleway;
 font-size: 22px;
+margin-bottom: 31px;
+}
+
+.portfolio .active {
+    /* Style for "Все проект" */
+width: 134px;
+height: 21px;
+color: #00203a;
+font-family: "Raleway - Semi Bold";
+font-size: 22px;
+font-weight: 400;
 }
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
