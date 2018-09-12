@@ -201,7 +201,26 @@ font-family: "Raleway - Semi Bold";
 font-size: 22px;
 font-weight: 400;
 }
+/* потестить сочетание флексбоксов и бекграунд имеджей */
+.portfolio-example .image-block {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 33px;
+}
 
+.portfolio-example .left-border {
+    /* position: relative; */
+    width: 100px;
+    background: url('img/ET-Hus-ved-åen-FINAL-LR-3-770x512.png'); /*тут ошибка, картинка растягивается, исправить */
+}
+
+/* .portfolio-example .left-border::after {
+    content: "";
+    opacity: 0.8;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+} */
 @media screen and (min-width: 321px) and (max-width: 768px) {
     /* .wrapper{
         height: 200px;
