@@ -192,14 +192,53 @@ font-size: 22px;
 margin-bottom: 31px;
 }
 
-.portfolio .active {
+.portfolio li.active {
     /* Style for "Все проект" */
-width: 134px;
-height: 21px;
-color: #00203a;
-font-family: "Raleway - Semi Bold";
-font-size: 22px;
-font-weight: 400;
+    width: 134px;
+    height: 21px;
+    color: #00203a;
+    font-family: "Raleway - Semi Bold";
+    font-size: 22px;
+    font-weight: 400;
+}
+.portfolio-example .image-block {
+    position: relative;
+}
+.portfolio-example .image-block::before {
+    /* position: absolute; */
+    content: url('./img/lair3.png');
+    display: block;
+    width: 200px;
+    height: 529px;
+    /* right: 15px; */
+    /* opacity: 0.8; */
+    /* background-image: url('img/Cam3_large.png'); */
+    /* background-color: red; */
+    /* background-image: url(./img/Cлой_3.png); */
+    /* z-index: -1; */
+}
+
+.portfolio-example .left-border {
+    width: 14px;
+    height: 529px;
+    position: relative;
+    right: 15px;
+    float: left;
+    z-index: -2;
+}
+
+
+.portfolio-example .main {
+    float: left;
+}
+
+.portfolio-example .right-border {
+    float: right;
+    width: 13px;
+    height: 529px;
+    position: relative;
+    left: 15px;
+
 }
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
