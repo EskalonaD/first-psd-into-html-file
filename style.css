@@ -11,7 +11,17 @@ img {
 @font-face {
     font-family: 'Muller Thin';
     src: url('fonts/Muller-Thin.ttf')  format('truetype');
-  }
+}
+
+@font-face {
+    font-family: 'Raleway - Semi Bold';
+    src: url('fonts/Raleway-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-Regular.ttf') format('truetype');
+}
 
 body {
     width: 320px;
@@ -139,7 +149,7 @@ margin-bottom: 25px;
 .advantages h2 {
     /* display: block; */
     /* Style for "Мы - профе" */
-width: 246px;
+width: 265px;
 height: 49px;
 color: #1a292f;
 font-family: "Raleway - Semi Bold";
@@ -163,6 +173,9 @@ letter-spacing: 0.64px;
 
 /* portfolio css */
 
+.portfolio {
+    margin-bottom: 95px;
+}
 .portfolio h2 {
     /* Style for "Портфолио" */
 width: 259px;
@@ -203,19 +216,15 @@ margin-bottom: 31px;
 }
 .portfolio-example .image-block {
     position: relative;
+    margin-bottom: 25px;
+    height: 529px;
 }
+
 .portfolio-example .image-block::before {
-    /* position: absolute; */
+    position: absolute;
     content: url('./img/lair3.png');
     display: block;
-    width: 200px;
-    height: 529px;
-    /* right: 15px; */
-    /* opacity: 0.8; */
-    /* background-image: url('img/Cam3_large.png'); */
-    /* background-color: red; */
-    /* background-image: url(./img/Cлой_3.png); */
-    /* z-index: -1; */
+    left: -15px;
 }
 
 .portfolio-example .left-border {
@@ -241,12 +250,46 @@ margin-bottom: 31px;
 
 }
 
+.portfolio-example .image-block::after {
+    content: url('./img/layer3copy.png');
+    position: absolute;
+    right: -15px;
+    width: 13px;
+    height: 529px;
+    /* opacity: 0.8; */
+    /* clear: both;
+    display: block; */
+    /* margin-bottom: 25px; */
+    
+
+}
+
+.portfolio-example .text-block {
+    /* Style for "Дизайн инт" */
+    width: 275px;
+    height: 17px;
+    color: #00203a;
+    font-family: "Raleway - Semi Bold";
+    font-size: 18px;
+    font-weight: 400;
+    /* Text style for "Дизайн инт" */
+    letter-spacing: 0.64px;
+    /* clear: both; */
+    /* margin-top: 25px; */
+    margin-left: 8px;
+  
+} 
+
+/* to do: fix all bugs from fonts. Mby, change advantages */
+
 @media screen and (min-width: 321px) and (max-width: 768px) {
     /* .wrapper{
         height: 200px;
         opacity: 0.2;
     } */
 }
+
+
 
 @media screen and (min-width: 769px) {
 
