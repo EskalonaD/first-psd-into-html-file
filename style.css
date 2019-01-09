@@ -277,10 +277,51 @@ margin-bottom: 31px;
     /* clear: both; */
     /* margin-top: 25px; */
     margin-left: 8px;
-  
+    
 } 
 
-/* to do: fix all bugs from fonts. Mby, change advantages */
+
+/* Services css */
+
+.services h2 {
+    /* Style for "Наши услуг" */
+width: 289px;
+height: 40px;
+color: #00203a;
+font-family: "Playfair Display";
+font-size: 45px;
+font-weight: 700;
+/* Text style for "Н, аши усл" */
+letter-spacing: 0.9px;
+line-height: 26px;
+margin-bottom: 39px;
+}
+
+.services-menu {
+    list-style: none;
+}
+
+.services-menu li {
+    /* Style for "Дизайн жил" */
+/* width: 280px; */
+/* height: 20px; */
+color: #7d7d7d;
+font-family: Raleway;
+font-size: 22px;
+font-weight: 300;
+margin-bottom: 35px;
+}
+
+.services-menu .active {
+    font-family: "Raleway - Semi Bold";
+font-size: 22px;
+font-weight: 400;
+color: #00203a;
+}
+/* to do: fix all bugs from fonts. change advantages. finish portfolio sidings (both HTML & CSS) */
+/* ask Danil should i add fonts by linking their adress at google fonts */
+/* all ul & ol should have list-style properties valued as 'none' */
+
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
     /* .wrapper{
