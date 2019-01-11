@@ -127,9 +127,6 @@ body {
     padding: 74px 15px 116px;
 }
 
-.main-content > div {
-    margin-bottom: 95px;
-}
 /* advantages css */
 
 .advantage-block {
@@ -387,6 +384,7 @@ line-height: 11px;
     background-position: center; 
     padding-top: 226px;   
     text-decoration: none;
+    margin-bottom: 114px;
 }
 
 .about__button {
@@ -418,8 +416,67 @@ line-height: 30px;
 letter-spacing: 0.39px;
 margin-left: 32px;
 text-align: center;
-
 }
+
+/* work-plan CSS */
+.work-plan {
+    margin-bottom: 116px;
+}
+
+.work-plan__header {
+    /* Style for "Этапы  раб" */
+width: 167px;
+height: 95px;
+color: #00203a;
+font-family: "Playfair Display";
+font-size: 45px;
+font-weight: 700;
+/* Text style for "Э, тапы  ," */
+letter-spacing: 0.32px;
+position: relative;
+top: -15px;
+margin: 0px 0px 49px 59px;
+}
+
+.work-plan__block {
+    margin-bottom: 50px;
+}
+.work-plan__block h3 {
+    /* Style for "Консультац" */
+color: #313131;
+font-family: "Raleway - Semi Bold";
+font-size: 22px;
+font-weight: 400;
+line-height: 17.74px;
+margin-bottom: 14px;
+}
+
+
+.work-plan__block-separator {
+    background-image: url('img/seporator.png');
+    /* Style for "Фигура 2 к" */
+width: 42px;
+height: 1px;
+margin-bottom: 23px;
+}
+
+.work-plan__block p {
+    /* Style for "Создаем ко" */
+color: #5e5e5e;
+font-family: Raleway;
+font-size: 18px;
+font-weight: 300;
+line-height: 25px;
+}
+.work-plan__block .text-doesnt-fit {
+    margin-left: -4px;
+}
+
+
+
+
+
+/* how to 
 /* to do: fix all bugs from fonts. change advantages. finish portfolio sidings (both HTML & CSS) */
 /* ask Danil should i add fonts by linking their adress at google fonts */
 /* should all ul & ol  have list-style properties valued as 'none' by default??? */
@@ -427,6 +484,7 @@ text-align: center;
 /* add link tags where they are needed */
 /* how to save HTML & CSS at the same time? */
 /* vs-code give file path with "\" slashes. Can I switch it for "/" by default? Browser don't see files with "\" in directory */
+/* Check .content and .main-content side paddings+margins */
 
 
 /* how to play with console.log in vs-code|| browser */
