@@ -18,10 +18,12 @@ img {
     src: url('fonts/Raleway-SemiBold.ttf') format('truetype');
 }
 
+
 @font-face {
     font-family: 'Raleway';
     src: url('fonts/Raleway-Regular.ttf') format('truetype');
 }
+
 
 body {
     width: 320px;
@@ -299,6 +301,7 @@ margin-bottom: 39px;
 
 .services-menu {
     list-style: none;
+    margin-bottom: 62px;
 }
 
 .services-menu li {
@@ -318,9 +321,54 @@ font-size: 22px;
 font-weight: 400;
 color: #00203a;
 }
+
+.services-photo {
+    margin-left: -16px;
+    margin-bottom: 33px;
+}
+
+/* properties line-height work well for alligning text only for 1-liners */
+.services-textblock {
+    position: relative;
+    top: -5px;
+    color: #5e5e5e;
+    font-family: Raleway;
+font-size: 20px;
+font-weight: 300;
+line-height: 30px;
+margin-bottom: 52px;
+}
+
+/* why I cant remove underline with text-decoration in div, only here? */
+.services-button {
+    /* Style for "Прямоуголь" */
+    display: block;
+width: 217px;
+height: 56px;
+border: 2px solid #112537;
+padding: auto;
+text-decoration: none;
+}
+.services-button div {
+/* Style for "КОНСУЛЬТАЦ" */
+width: 140px;
+height: 14px;
+color: #00203a;
+font-family: "Raleway";
+font-size: 15px;
+font-weight: 800;
+/* Text style for "КОНСУЛЬТАЦ" */
+letter-spacing: 2.25px;
+margin:  24px auto 18px;
+vertical-align: middle;
+line-height: 11px;
+}
+
 /* to do: fix all bugs from fonts. change advantages. finish portfolio sidings (both HTML & CSS) */
 /* ask Danil should i add fonts by linking their adress at google fonts */
-/* all ul & ol should have list-style properties valued as 'none' */
+/* should all ul & ol  have list-style properties valued as 'none' by default??? */
+/* should all links have text-description properties valued as 'none' by default? */
+/* add link tags where they are needed */
 
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
