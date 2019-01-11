@@ -18,6 +18,10 @@ img {
     src: url('fonts/Raleway-SemiBold.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Raleway - Extra Bold';
+    src: url('fonts/Raleway-ExtraBold.ttf') format('truetype');
+}
 
 @font-face {
     font-family: 'Raleway';
@@ -284,6 +288,10 @@ margin-bottom: 31px;
 
 
 /* Services css */
+.services {
+    margin-bottom: 109px;
+
+}
 
 .services h2 {
     /* Style for "Наши услуг" */
@@ -340,13 +348,16 @@ margin-bottom: 52px;
 }
 
 /* why I cant remove underline with text-decoration in div, only here? */
+/* margin-left 37px will suit better, because of content's margins (side margins with not equal 
+size definetly doesn't needed & mby don't needed ANY size margins grand parents elements) */
 .services-button {
     /* Style for "Прямоуголь" */
     display: block;
 width: 217px;
 height: 56px;
 border: 2px solid #112537;
-padding: auto;
+margin-left: auto; 
+margin-right: auto;
 text-decoration: none;
 }
 .services-button div {
@@ -364,11 +375,61 @@ vertical-align: middle;
 line-height: 11px;
 }
 
+/* about-us CSS */
+
+/*why first background-image lay incorrect? */
+.about-us {
+    display: block;
+    width: 320px;
+    height: 620px;
+    margin-left: -16px;
+    background-image:  url('img/layout4.png'), url('img/47.png');
+    background-position: center; 
+    padding-top: 226px;   
+    text-decoration: none;
+}
+
+.about__button {
+    /* Style for "Эллипс 1 к" */
+width: 84px;
+height: 84px;
+box-shadow: 5px 8px 21px 8px rgba(0, 1, 6, 0.07);
+background-color: #febc80;
+opacity: 0.95;
+margin-left: auto;
+margin-right: auto;
+border-radius: 50%;
+background-image: url('img/play_button.png');
+background-position: 35px center;
+background-repeat: no-repeat;
+margin-bottom: 33px;
+}
+
+.about__text {
+    /* Style for "О  студии" */
+width: 260px;
+height: 81px;
+color: #ffffff;
+font-family: Raleway;
+font-size: 22px;
+font-weight: 400;
+line-height: 30px;
+/* Text style for "О,   студи" */
+letter-spacing: 0.39px;
+margin-left: 32px;
+text-align: center;
+
+}
 /* to do: fix all bugs from fonts. change advantages. finish portfolio sidings (both HTML & CSS) */
 /* ask Danil should i add fonts by linking their adress at google fonts */
 /* should all ul & ol  have list-style properties valued as 'none' by default??? */
 /* should all links have text-description properties valued as 'none' by default? */
 /* add link tags where they are needed */
+/* how to save HTML & CSS at the same time? */
+/* vs-code give file path with "\" slashes. Can I switch it for "/" by default? Browser don't see files with "\" in directory */
+
+
+/* how to play with console.log in vs-code|| browser */
 
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
