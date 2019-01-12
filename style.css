@@ -11,10 +11,30 @@ img {
 @font-face {
     font-family: 'Muller Thin';
     src: url('fonts/Muller-Thin.ttf')  format('truetype');
-  }
+}
 
-.main {
+@font-face {
+    font-family: 'Raleway - Semi Bold';
+    src: url('fonts/Raleway-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway - Extra Bold';
+    src: url('fonts/Raleway-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-Regular.ttf') format('truetype');
+}
+
+
+body {
     width: 320px;
+}
+  /*wrapper*/
+.wrapper-main {
+    /* width: 320px; */
     height: 608px;
     /* background-color: #112537; */
 
@@ -22,10 +42,10 @@ img {
     background-position: 60% 0;
     text-align: center;
     position: relative;
-    z-index: 1;
+    z-index: -4;
 }
 
-.main::after {
+.wrapper-main::after {
     content: "";
     opacity: 0.8;
     background-color: #112537;
@@ -34,7 +54,7 @@ img {
     bottom: 0;
     right: 0;
     position: absolute;
-    z-index: -1;
+    z-index: -3;
   }
 
   .header {
@@ -62,7 +82,7 @@ img {
 
 .content__title {
     width: 100%;
-    /* height: 96px;  */
+
     color: #ffffff;
     font-family: 'Playfair Display', serif;
     font-size: 48px;
@@ -100,16 +120,374 @@ img {
     margin-top: 29px;
 }
 
+/*main-contetn css start*/
 
-/* .phone {
+.main-content {
+    /* height: 8754px; */
+    padding: 74px 15px 116px;
+}
+
+/* advantages css */
+
+.advantage-block {
+    margin-bottom: 40px;
+}
+.advantages .number {
+    /* display: inline-block; */
+/* Style for "03" */
+/* vertical-align: top; */
+width: 83px;
+height: 58px;
+opacity: 0.26;
+color: #fea052;
+font-family: "Playfair Display";
+font-size: 85px;
+font-weight: bold;
+line-height: 43px;
+/* Text style for "0, 3" */
+letter-spacing: 0.28px;
+margin-bottom: 25px;
+
+}
+.advantages h2 {
+    /* display: block; */
+    /* Style for "Мы - профе" */
+width: 265px;
+height: 49px;
+color: #1a292f;
+font-family: "Raleway - Semi Bold";
+font-size: 24px;
+font-weight: normal;
+margin-bottom: 23px;
+}
+
+.advantages .text-block {
+    /* Style for "Ценовая по" */
+width: 280px;
+height: 138px;
+color: #838383;
+font-family: Raleway;
+font-size: 18px;
+font-weight: 300;
+line-height: 25px;
+/* Text style for "Ценовая по" */
+letter-spacing: 0.64px;
+}
+
+/* portfolio css */
+
+.portfolio {
+    margin-bottom: 95px;
+}
+.portfolio h2 {
+    /* Style for "Портфолио" */
+width: 259px;
+height: 41px;
+color: #00203a;
+font-family: "Playfair Display";
+font-size: 45px;
+font-weight: 700;
+line-height: 28px;
+/* Text style for "П, ортфоли" */
+letter-spacing: 0.32px;
+padding-left:13px;
+margin-bottom: 42px;
+}
+
+.portfolio-menu {
+    list-style: none;
+    margin-bottom: 39px;
+}
+
+.portfolio li {
+
+
+color: #bababa;
+font-family: Raleway;
+font-size: 22px;
+margin-bottom: 31px;
+}
+
+.portfolio li.active {
+    /* Style for "Все проект" */
+    width: 134px;
+    height: 21px;
+    color: #00203a;
+    font-family: "Raleway - Semi Bold";
+    font-size: 22px;
+    font-weight: 400;
+}
+.portfolio-example .image-block {
+    position: relative;
+    margin-bottom: 25px;
+    height: 529px;
+}
+
+.portfolio-example .image-block::before {
+    position: absolute;
+    content: url('./img/lair3.png');
+    display: block;
+    left: -15px;
+}
+
+.portfolio-example .left-border {
+    width: 14px;
+    height: 529px;
+    position: relative;
+    right: 15px;
+    float: left;
+    z-index: -2;
+}
+
+
+.portfolio-example .main {
+    float: left;
+}
+
+.portfolio-example .right-border {
+    float: right;
+    width: 13px;
+    height: 529px;
+    position: relative;
+    left: 15px;
+
+}
+
+.portfolio-example .image-block::after {
+    content: url('./img/layer3copy.png');
+    position: absolute;
+    right: -15px;
+    width: 13px;
+    height: 529px;
+    /* opacity: 0.8; */
+    /* clear: both;
+    display: block; */
+    /* margin-bottom: 25px; */
+    
+
+}
+
+.portfolio-example .text-block {
+    /* Style for "Дизайн инт" */
+    width: 275px;
+    height: 17px;
+    color: #00203a;
+    font-family: "Raleway - Semi Bold";
+    font-size: 18px;
+    font-weight: 400;
+    /* Text style for "Дизайн инт" */
+    letter-spacing: 0.64px;
+    /* clear: both; */
+    /* margin-top: 25px; */
+    margin-left: 8px;
+    
+} 
+
+
+/* Services css */
+.services {
+    margin-bottom: 109px;
+
+}
+
+.services h2 {
+    /* Style for "Наши услуг" */
+width: 289px;
+height: 40px;
+color: #00203a;
+font-family: "Playfair Display";
+font-size: 45px;
+font-weight: 700;
+/* Text style for "Н, аши усл" */
+letter-spacing: 0.9px;
+line-height: 26px;
+margin-bottom: 39px;
+}
+
+.services-menu {
+    list-style: none;
+    margin-bottom: 62px;
+}
+
+.services-menu li {
+    /* Style for "Дизайн жил" */
+/* width: 280px; */
+/* height: 20px; */
+color: #7d7d7d;
+font-family: Raleway;
+font-size: 22px;
+font-weight: 300;
+margin-bottom: 35px;
+}
+
+.services-menu .active {
+    font-family: "Raleway - Semi Bold";
+font-size: 22px;
+font-weight: 400;
+color: #00203a;
+}
+
+.services-photo {
+    margin-left: -16px;
+    margin-bottom: 33px;
+}
+
+/* properties line-height work well for alligning text only for 1-liners */
+.services-textblock {
+    position: relative;
+    top: -5px;
+    color: #5e5e5e;
+    font-family: Raleway;
+font-size: 20px;
+font-weight: 300;
+line-height: 30px;
+margin-bottom: 52px;
+}
+
+/* why I cant remove underline with text-decoration in div, only here? */
+/* margin-left 37px will suit better, because of content's margins (side margins with not equal 
+size definetly doesn't needed & mby don't needed ANY size margins grand parents elements) */
+.services-button {
+    /* Style for "Прямоуголь" */
+    display: block;
+width: 217px;
+height: 56px;
+border: 2px solid #112537;
+margin-left: auto; 
+margin-right: auto;
+text-decoration: none;
+}
+.services-button div {
+/* Style for "КОНСУЛЬТАЦ" */
+width: 140px;
+height: 14px;
+color: #00203a;
+font-family: "Raleway";
+font-size: 15px;
+font-weight: 800;
+/* Text style for "КОНСУЛЬТАЦ" */
+letter-spacing: 2.25px;
+margin:  24px auto 18px;
+vertical-align: middle;
+line-height: 11px;
+}
+
+/* about-us CSS */
+
+/*why first background-image lay incorrect? */
+.about-us {
+    display: block;
     width: 320px;
-    height: 608px;
-    background-color: #112537;
-    opacity: 0.88;
-     position: absolute;
-} */
+    height: 620px;
+    margin-left: -16px;
+    background-image:  url('img/layout4.png'), url('img/47.png');
+    background-position: center; 
+    padding-top: 226px;   
+    text-decoration: none;
+    margin-bottom: 114px;
+}
+
+.about__button {
+    /* Style for "Эллипс 1 к" */
+width: 84px;
+height: 84px;
+box-shadow: 5px 8px 21px 8px rgba(0, 1, 6, 0.07);
+background-color: #febc80;
+opacity: 0.95;
+margin-left: auto;
+margin-right: auto;
+border-radius: 50%;
+background-image: url('img/play_button.png');
+background-position: 35px center;
+background-repeat: no-repeat;
+margin-bottom: 33px;
+}
+
+.about__text {
+    /* Style for "О  студии" */
+width: 260px;
+height: 81px;
+color: #ffffff;
+font-family: Raleway;
+font-size: 22px;
+font-weight: 400;
+line-height: 30px;
+/* Text style for "О,   студи" */
+letter-spacing: 0.39px;
+margin-left: 32px;
+text-align: center;
+}
+
+/* work-plan CSS */
+.work-plan {
+    margin-bottom: 116px;
+}
+
+.work-plan__header {
+    /* Style for "Этапы  раб" */
+width: 167px;
+height: 95px;
+color: #00203a;
+font-family: "Playfair Display";
+font-size: 45px;
+font-weight: 700;
+/* Text style for "Э, тапы  ," */
+letter-spacing: 0.32px;
+position: relative;
+top: -15px;
+margin: 0px 0px 49px 59px;
+}
+
+.work-plan__block {
+    margin-bottom: 50px;
+}
+.work-plan__block h3 {
+    /* Style for "Консультац" */
+color: #313131;
+font-family: "Raleway - Semi Bold";
+font-size: 22px;
+font-weight: 400;
+line-height: 17.74px;
+margin-bottom: 14px;
+}
 
 
+.work-plan__block-separator {
+    background-image: url('img/seporator.png');
+    /* Style for "Фигура 2 к" */
+width: 42px;
+height: 1px;
+margin-bottom: 23px;
+}
+
+.work-plan__block p {
+    /* Style for "Создаем ко" */
+color: #5e5e5e;
+font-family: Raleway;
+font-size: 18px;
+font-weight: 300;
+line-height: 25px;
+}
+.work-plan__block .text-doesnt-fit {
+    margin-left: -4px;
+}
+
+
+
+
+
+/* how to 
+/* to do: fix all bugs from fonts. change advantages. finish portfolio sidings (both HTML & CSS) */
+/* ask Danil should i add fonts by linking their adress at google fonts */
+/* should all ul & ol  have list-style properties valued as 'none' by default??? */
+/* should all links have text-description properties valued as 'none' by default? */
+/* add link tags where they are needed */
+/* how to save HTML & CSS at the same time? */
+/* vs-code give file path with "\" slashes. Can I switch it for "/" by default? Browser don't see files with "\" in directory */
+/* Check .content and .main-content side paddings+margins */
+/* merge!!! */
+
+/* how to play with console.log in vs-code|| browser */
 
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
@@ -118,6 +496,8 @@ img {
         opacity: 0.2;
     } */
 }
+
+
 
 @media screen and (min-width: 769px) {
 
