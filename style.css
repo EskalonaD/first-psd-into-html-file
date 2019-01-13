@@ -473,21 +473,64 @@ line-height: 25px;
 }
 
 
+/* questionnaire CSS */
+.questionnaire {
+    background-image: url('img/kitchen2.png');
+    
+    /* Style for "kitchen2" */
+width: 320px;
+height: 911px;
+/* Style for "placeholde" */
+background-color:rgba(24,44,61,0.9);
+padding-top: 86px;
+display: flex;
+align-items: center;
+flex-direction: column;
+
+}
+
+.questionnaire h2 {
+/* Style for "Мечтаете о" */
+/* align-items: center; */
+width: 276px;
+height: 144px;
+text-align: center;
+color: #ffffff;
+font-family: "Playfair Display";
+font-size: 45px;
+font-weight: 700;
+/* Text style for "М, ечтаете" */
+letter-spacing: 0.32px;
+position: relative;
+top: -12px;
+margin-bottom: 31px;
+}
+
+.questionnaire-textblock {
+    /* Style for "Оставьте к" */
+width: 276px;
+height: 89px;
+opacity: 0.7;
+color: #ffffff;
+font-family: Raleway;
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+/* Text style for "О, ставьте" */
+letter-spacing: 0.64px;
+}
 
 
-
-/* how to 
 /* to do: fix all bugs from fonts. change advantages. finish portfolio sidings (both HTML & CSS) */
-/* ask Danil should i add fonts by linking their adress at google fonts */
-/* should all ul & ol  have list-style properties valued as 'none' by default??? */
-/* should all links have text-description properties valued as 'none' by default? */
+/* refactor side paddings */
+
 /* add link tags where they are needed */
-/* how to save HTML & CSS at the same time? */
+
 /* vs-code give file path with "\" slashes. Can I switch it for "/" by default? Browser don't see files with "\" in directory */
 /* Check .content and .main-content side paddings+margins */
-/* merge!!! */
+/* shoud i leave space between one section and header of next one by using margin-bottom in previous one or by adjusting padding top in folllowing? */
+/* ask Danil direct steps for checking differencies actualising work-branch with master branch before merging */
 
-/* how to play with console.log in vs-code|| browser */
 
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
