@@ -523,6 +523,42 @@ text-align: center;
 white-space: pre-line;
 position: relative;
     bottom: 5px;
+    
+}
+.questionnaire-textblock{
+    margin-bottom: 50px;
+}
+/* textCSS */
+
+[type='text'] {
+    color: red;
+    background: none;
+    border: none;
+    height: 52px;
+}
+
+input::placeholder {
+/* Style for "Имя*" */
+width: 44px;
+height: 13px;
+opacity: 0.8;
+color: #ffffff;
+font-family: Raleway;
+font-size: 18px;
+font-weight: 300;
+line-height: 16.79px;
+/* Text style for "И, мя*" */
+letter-spacing: 1.29px;
+}
+[type='text']:active {
+    border: 1px solid black;
+}
+[type='text']:visited {
+    border: none;
+}
+[type='text']:focus {
+    border: none;
+    outline: 0;
 }
 
 
