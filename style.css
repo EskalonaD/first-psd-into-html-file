@@ -531,38 +531,73 @@ position: relative;
 /* textCSS */
 
 [type='text'] {
-    color: red;
-    background: none;
+    width: 289px;
+    height: 45px;
+    /* opacity: 0.8; */
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 16.79px;
+    /* Text style for "И, мя*" */
+    letter-spacing: 1.29px;
+    background-color:transparent;
     border: none;
-    height: 52px;
+    position: relative;
+    bottom: 10px;
+    padding-left: 4px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid rgba(253,229,209,0.7);
+    border-radius: 1px;
 }
 
+
 input::placeholder {
-/* Style for "Имя*" */
-width: 44px;
-height: 13px;
+
+/* width: 44px; */
+/* height: 13px; */
 opacity: 0.8;
 color: #ffffff;
 font-family: Raleway;
 font-size: 18px;
 font-weight: 300;
-line-height: 16.79px;
-/* Text style for "И, мя*" */
+
 letter-spacing: 1.29px;
-}
-[type='text']:active {
-    border: 1px solid black;
-}
-[type='text']:visited {
-    border: none;
-}
+/* margin: 0; */
+
+} 
+
 [type='text']:focus {
-    border: none;
+
     outline: 0;
 }
 
+input{
+    display: block;
+}
+[type='button'] {
+/* Style for "Прямоуголь" */
+width: 291px;
+height: 71px;
+box-shadow: 0 0 49px 19px rgba(0, 0, 1, 0.02);
+border-radius: 5px;
+background-color: #f8a25a;
+color: #ffffff;
+font-family: "Raleway - Extra Bold";
+font-size: 18px;
+font-weight: 400;
+line-height: 16.52px;
+/* Text style for "О, ТПРАВИТ" */
+letter-spacing: 2.62px;
+outline: 0;
+/* border: none; */
+}
 
 /* to do: fix all bugs from fonts. change advantages. finish portfolio sidings (both HTML & CSS) */
+/* SIDINGS */
+/* fix selectors in Questinnaire section */
+/* check if input use was correct */
+/* correctly place the inputs after correcting the sidings */
 /* refactor side paddings */
 /* should nominate line-height in %, px or modifiars? */
 /* add link tags where they are needed */
@@ -571,6 +606,12 @@ letter-spacing: 1.29px;
 /* Check .content and .main-content side paddings+margins */
 /* shoud i leave space between one section and header of next one by using margin-bottom in previous one or by adjusting padding top in folllowing? */
 /* ask Danil direct steps for checking differencies actualising work-branch with master branch before merging */
+
+
+/* how to: */
+
+/* check distances i google chrome development tooles */
+
 
 
 
