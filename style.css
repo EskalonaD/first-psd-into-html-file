@@ -593,23 +593,23 @@ outline: 0;
 /* border: none; */
 }
 
-/* to do: fix all bugs from fonts. change advantages. finish portfolio sidings (both HTML & CSS) */
-/* SIDINGS */
-/* fix selectors in Questinnaire section */
-/* check if input use was correct */
-/* correctly place the inputs after correcting the sidings */
-/* refactor side paddings */
-/* should nominate line-height in %, px or modifiars? */
-/* add link tags where they are needed */
-
-/* vs-code give file path with "\" slashes. Can I switch it for "/" by default? Browser don't see files with "\" in directory */
-/* Check .content and .main-content side paddings+margins */
+/* to do: fix all bugs from fonts. change advantages. finish portfolio sidings (both HTML & CSS) 
+ SIDINGS 
+ fix selectors in Questinnaire section 
+ check if input use was correct 
+ correctly place the inputs after correcting the sidings 
+ refactor side paddings 
+ add link tags where they are needed 
+ Check .content and .main-content side paddings+margins */
+ 
+ 
+ 
+ /* how to: */
+ /* vs-code give file path with "\" slashes. Can I switch it for "/" by default? Browser don't see files with "\" in directory */
+ /* should nominate line-height in %, px or modifiars? */
+ 
 /* shoud i leave space between one section and header of next one by using margin-bottom in previous one or by adjusting padding top in folllowing? */
 /* ask Danil direct steps for checking differencies actualising work-branch with master branch before merging */
-
-
-/* how to: */
-
 /* check distances i google chrome development tooles */
 
 
