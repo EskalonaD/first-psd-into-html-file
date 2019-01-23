@@ -32,17 +32,23 @@ img {
 body {
     width: 320px;
 }
+
+.big-wrapper {
+    background-image: url('img/wrapperBackground.png')
+}
   /*wrapper*/
-.wrapper-main {
-    /* width: 320px; */
+
+  .wrapper-main {
+    width: 100%;
     height: 608px;
-    /* background-color: #112537; */
+    
+
 
     background-image: url('./img/coty-17-lifestyle-2.png');
     background-position: 60% 0;
     text-align: center;
     position: relative;
-    z-index: -4;
+    z-index: 3;
 }
 
 .wrapper-main::after {
@@ -54,7 +60,7 @@ body {
     bottom: 0;
     right: 0;
     position: absolute;
-    z-index: -3;
+    z-index: -2;
   }
 
   .header {
@@ -123,14 +129,15 @@ body {
 /*main-contetn css start*/
 
 .main-content {
-    /* height: 8754px; */
-    padding: 74px 15px 116px;
+    
+    padding: 74px 0 116px;
 }
 
 /* advantages css */
 
 .advantage-block {
     margin-bottom: 40px;
+    margin-left: 15px;
 }
 .advantages .number {
     /* display: inline-block; */
@@ -178,6 +185,8 @@ letter-spacing: 0.64px;
 
 .portfolio {
     margin-bottom: 95px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .portfolio h2 {
     /* Style for "Портфолио" */
@@ -287,6 +296,8 @@ margin-bottom: 31px;
 /* Services css */
 .services {
     margin-bottom: 109px;
+    padding-left: 15px;
+    padding-right: 15px;
 
 }
 
@@ -379,12 +390,12 @@ line-height: 11px;
     display: block;
     width: 320px;
     height: 620px;
-    margin-left: -16px;
     background-image:  url('img/layout4.png'), url('img/47.png');
     background-position: center; 
     padding-top: 226px;   
     text-decoration: none;
     margin-bottom: 114px;
+    
 }
 
 .about__button {
@@ -421,6 +432,7 @@ text-align: center;
 /* work-plan CSS */
 .work-plan {
     margin-bottom: 116px;
+    padding-left: 15px;
 }
 
 .work-plan__header {
@@ -594,13 +606,14 @@ outline: 0;
 }
 
 /* to do: fix all bugs from fonts. change advantages. finish portfolio sidings (both HTML & CSS) 
- SIDINGS 
+ change portfolio structure to full-size images
+  
  fix selectors in Questinnaire section 
  check if input use was correct 
  correctly place the inputs after correcting the sidings 
- refactor side paddings 
+ 
  add link tags where they are needed 
- Check .content and .main-content side paddings+margins */
+  */
  
  
  
