@@ -131,6 +131,7 @@ body {
 .main-content {
     
     padding-top: 74px;
+    margin-bottom: 149px;
 }
 
 /* advantages css */
@@ -622,6 +623,37 @@ font-weight: 300;
 /* Text style for "Н, ажимая" */
 letter-spacing: 0.7px;
 text-align: center;
+}
+
+/* customer-feedback CSS */
+
+.customer-feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 149px;
+    position: relative;
+}
+
+.customer-feedback h2 {
+    /* Style for "Отзывы  на" */
+width: 214px;
+height: 142px;
+color: #00203a;
+font-family: "Playfair Display";
+font-size: 45px;
+font-weight: 700;
+/* Text style for "О, тзывы" */
+letter-spacing: 0.32px;
+line-height: 53px;
+position: relative;
+bottom: 12px;
+}
+
+.customer-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* to do: fix all bugs from fonts. change advantages. finish portfolio sidings (both HTML & CSS) 
