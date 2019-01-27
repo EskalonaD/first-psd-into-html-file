@@ -759,13 +759,38 @@ height: 40px;
 margin-bottom: 44px;
 }
 
-.social-media {
+.footer .social-media {
     display: flex;
     width: 210px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 57px;
+}
+
+.footer .address {
+    /* Style for "BRUME inte" */
+width: 194px;
+height: 18px;
+color: #ffc487;
+font-family: Raleway;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+margin-bottom: 14px;
+}
+
+.footer .site-creator {
+/* Style for "HolodnayaD" */
+width: 165px;
+height: 19px;
+color: #ffc487;
+font-family: Raleway;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+position: relative;
+bottom: 6px;
 }
 
 /* to do: fix all bugs from fonts. change advantages. finish portfolio sidings (both HTML & CSS) 
