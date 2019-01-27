@@ -697,7 +697,7 @@ margin-bottom: 26px;
 text-align: center;
 }
 
-p {
+.customer-feedback p {
     /* Style for "Спасибо ст" */
 width: 254px;
 height: 259px;
@@ -742,14 +742,66 @@ opacity: 0.21;
 .feedback-switcher .active{
     opacity: 1;
 }
+
+/* footer CSS */
+.footer {
+    background-color: #182c3d;
+    padding: 98px 0 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .logo {
+    /* Style for "logo" */
+width: 70px;
+height: 40px;
+margin-bottom: 44px;
+}
+
+.footer .social-media {
+    display: flex;
+    width: 210px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 57px;
+}
+
+.footer .address {
+    /* Style for "BRUME inte" */
+width: 194px;
+height: 18px;
+color: #ffc487;
+font-family: Raleway;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+margin-bottom: 14px;
+}
+
+.footer .site-creator {
+/* Style for "HolodnayaD" */
+width: 165px;
+height: 19px;
+color: #ffc487;
+font-family: Raleway;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+position: relative;
+bottom: 6px;
+}
+
 /* to do: fix all bugs from fonts. change advantages. finish portfolio sidings (both HTML & CSS) 
  change portfolio structure to full-size images
   [type=button] to [type=submit]???
  fix selectors in Questinnaire section 
  check if input use was correct 
  correctly place the inputs after correcting the sidings 
- 
+ how to inspect distance in google developer tools
  add link tags where they are needed 
+ set anchor-images to background???
   */
  
  
