@@ -742,6 +742,22 @@ opacity: 0.21;
 .feedback-switcher .active{
     opacity: 1;
 }
+
+/* footer CSS */
+.footer {
+    background-color: #182c3d;
+    padding: 98px 0 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .logo {
+    /* Style for "logo" */
+width: 70px;
+height: 40px;
+}
+
 /* to do: fix all bugs from fonts. change advantages. finish portfolio sidings (both HTML & CSS) 
  change portfolio structure to full-size images
   [type=button] to [type=submit]???
