@@ -632,7 +632,9 @@ text-align: center;
     flex-direction: column;
     align-items: center;
     padding-top: 149px;
+    padding-bottom: 149px;
     position: relative;
+    z-index: 2;
 }
 
 .customer-feedback h2 {
@@ -648,14 +650,98 @@ letter-spacing: 0.32px;
 line-height: 53px;
 position: relative;
 bottom: 12px;
+margin-bottom: 37px;
+text-align: center;
 }
 
 .customer-information {
     display: flex;
     flex-direction: column;
     align-items: center;
+    z-index: inherit;
 }
 
+.customer-photo {
+    /* Style for "photo" */
+    width: 247px;
+    height: 224px;
+    margin-bottom: 18px;
+    z-index: inherit;
+}
+
+.customer-name {
+    /* Style for "Александра" */
+width: 259px;
+height: 22px;
+color: #313131;
+font-family: "Raleway - Semi Bold";
+font-size: 24px;
+font-weight: 400;
+line-height: 30px;
+margin-bottom: 8px;
+text-align: center;
+
+}
+
+.ordered-service {
+    /* Style for "Услуга: ин" */
+width: 251px;
+height: 17px;
+color: #efb172;
+font-family: Raleway;
+font-size: 18px;
+font-weight: 700;
+/* Text style for "Услуга: ин" */
+letter-spacing: 1.4px;
+margin-bottom: 26px;
+text-align: center;
+}
+
+p {
+    /* Style for "Спасибо ст" */
+width: 254px;
+height: 259px;
+color: #5e5e5e;
+font-family: Raleway;
+font-size: 20px;
+font-weight: 300;
+line-height: 30px;
+text-align: center;
+position: relative;
+bottom: 5px;
+margin-bottom: 102px;
+z-index: inherit;
+}
+
+
+.white-background {
+    position: absolute;
+    top: 374px;
+    left: 12px;
+    background-color: #ffffff;
+    box-shadow: 4px 7px 37px 14px rgba(0, 0, 1, 0.02);
+    width: 295px;
+    height: 581px;
+    z-index: 1;
+}
+.feedback-switcher {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 146px;
+}
+.switcher {
+    /* Style for "Прямоуголь" */
+width: 26px;
+height: 3px;
+background-color: #1a444a;
+opacity: 0.21;
+/* margin-right: 14px; */
+}
+
+.feedback-switcher .active{
+    opacity: 1;
+}
 /* to do: fix all bugs from fonts. change advantages. finish portfolio sidings (both HTML & CSS) 
  change portfolio structure to full-size images
   [type=button] to [type=submit]???
