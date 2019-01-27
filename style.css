@@ -756,6 +756,16 @@ opacity: 0.21;
     /* Style for "logo" */
 width: 70px;
 height: 40px;
+margin-bottom: 44px;
+}
+
+.social-media {
+    display: flex;
+    width: 210px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 57px;
 }
 
 /* to do: fix all bugs from fonts. change advantages. finish portfolio sidings (both HTML & CSS) 
@@ -764,8 +774,9 @@ height: 40px;
  fix selectors in Questinnaire section 
  check if input use was correct 
  correctly place the inputs after correcting the sidings 
- 
+ how to inspect distance in google developer tools
  add link tags where they are needed 
+ set anchor-images to background???
   */
  
  
