@@ -818,11 +818,20 @@ bottom: 6px;
 
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
-    /* .wrapper{
-        height: 200px;
-        opacity: 0.2;
-    } */
+    .big-wrapper {
+        width: 100vw;
+    }
+
+    .wrapper-main {
+        background-position: -511px -2px;
+        background-size: 1394px 1114px;
+        height: 100vh;
+    }
 }
+
+
+/* to do
+background for header... is this the same file or not? */
 
 
 
