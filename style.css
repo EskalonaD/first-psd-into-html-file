@@ -81,6 +81,7 @@ body {
     margin-top: 26px;
     margin-right: 14px;
     background-image: url('img/002-menu.png');
+    background-size: 34px 24px;
     /* Style for "002-menu" */
     width: 34px;
     height: 24px;
@@ -843,6 +844,14 @@ bottom: 6px;
         /* Style for "logo" */
         width: 154px;
         height: 45px;
+    }
+
+    .header__menu {
+        /* Style for "002-menu" */
+        width: 64px;
+        height: 44px;
+        /* background-color: #ffffff; */
+        background-size: 64px 44px;
     }
 
  
