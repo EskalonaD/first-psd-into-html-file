@@ -843,14 +843,20 @@ bottom: 6px;
         /* Style for "logo" */
         width: 154px;
         height: 45px;
-}
+    }
 
+ 
+}
 
 
 /*
  to do
 background for header... is this the same file or not?
 how can i type for same selectors but different screen resolution with small distance of textblocks? 
+*/
+
+/* to ASK:
+unseen menu in avocode??? screen-readers, mb???\
 */
 
 
