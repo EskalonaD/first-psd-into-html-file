@@ -826,6 +826,7 @@ bottom: 6px;
         background-position: -511px -2px;
         background-size: 1394px 1114px;
         height: 100vh;
+        width: 100vw;
     }
 }
 
