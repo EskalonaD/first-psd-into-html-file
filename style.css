@@ -71,6 +71,10 @@ body {
   .header__logo{
       margin-left: 15px;
       margin-top: 27px;
+      background-image: url('img/logo.png');
+      /* Style for "logo" */
+      width: 77px;
+      height: 23px;
   }
 
   .header__menu {
