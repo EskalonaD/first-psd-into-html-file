@@ -840,7 +840,8 @@ bottom: 6px;
     }
 
     .header__logo {
-        background-image: url('img/logo768.png');
+        background-image: url('img/logo768_2.png');
+        background-size: 154px 45px;
         /* Style for "logo" */
         width: 154px;
         height: 45px;
