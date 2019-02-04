@@ -88,6 +88,15 @@ body {
 
 }
 
+.header__menu .close {
+    visibility: hidden;
+    /* img again??? */
+}
+
+.header__menu:focus .close {
+    visibility: visible;
+}
+
 .content {
     display: flex;
     flex-direction: column;
