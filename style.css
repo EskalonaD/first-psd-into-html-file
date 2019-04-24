@@ -78,7 +78,7 @@ body {
       height: 23px;
   }
 
-  .header__menu {
+  .header__show-menu {
     margin-top: 26px;
     margin-right: 14px;
     background-image: url('img/002-menu.png');
@@ -90,7 +90,7 @@ body {
 
 }
 
-.header__menu .close {
+.menu {
     visibility: hidden;
     width: 100%;
     height: 100vh;
@@ -864,7 +864,7 @@ bottom: 6px;
         height: 45px;
     }
 
-    .header__menu {
+    .header__show-menu {
         /* Style for "002-menu" */
         width: 64px;
         height: 44px;
