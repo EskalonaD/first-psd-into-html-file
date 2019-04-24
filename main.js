@@ -1,2 +1,2 @@
-const showMenu = () => document.querySelector('.close').style.visibility ='visible';
-document.querySelector('.header__menu').addEventListener('click', showMenu);
+const showMenu = () => document.querySelector('.menu').style.visibility ='visible';
+document.querySelector('.header__show-menu').addEventListener('click', showMenu);
