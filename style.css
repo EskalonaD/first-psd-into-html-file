@@ -91,6 +91,12 @@ body {
 
 .header__menu .close {
     visibility: hidden;
+    width: 100%;
+    height: 100vh;
+    background-color: #112537;
+    position: absolute;
+    top: 0;
+    left: 0;
     /* img again??? */
 }
 
