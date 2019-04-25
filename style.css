@@ -99,14 +99,37 @@ body {
     top: 0;
     left: 0;
     
+    
     /* img again??? */
 }
 
 nav {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between;    
 }
+
+.menu__link {
+    /* Style for "ГЛАВНАЯ" */
+    width: 102px;
+        height: 15px;
+    opacity: 0.93;
+    color: #ffffff;
+    font-family: "Raleway - Semi Bold";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 42px;
+    /* Text style for "ГЛАВНАЯ" */
+    letter-spacing: 1.43px;
+    text-decoration: none;
+}
+
+.menu__active {
+    text-shadow: 0 0 5px rgba(0, 1, 6, 0.05);
+    color: #f8a25a;
+    
+}
+
 
 .content {
     display: flex;
