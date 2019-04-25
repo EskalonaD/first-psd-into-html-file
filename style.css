@@ -119,6 +119,7 @@ nav {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;    
+    height: 50%;
 }
 
 .menu__link {
@@ -136,7 +137,7 @@ nav {
     text-decoration: none;
 }
 
-.menu__active {
+.menu__link:hover {
     text-shadow: 0 0 5px rgba(0, 1, 6, 0.05);
     color: #f8a25a;
 
