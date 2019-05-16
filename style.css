@@ -117,14 +117,13 @@ body {
 nav {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;    
+    height: 60%;
 }
 
 .menu__link {
     /* Style for "ГЛАВНАЯ" */
-    width: 102px;
-        height: 15px;
     opacity: 0.93;
     color: #ffffff;
     font-family: "Raleway - Semi Bold";
@@ -136,7 +135,7 @@ nav {
     text-decoration: none;
 }
 
-.menu__active {
+.menu__link:hover {
     text-shadow: 0 0 5px rgba(0, 1, 6, 0.05);
     color: #f8a25a;
 
@@ -146,6 +145,10 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 170px;
+    align-self: center;
+    margin-right: 8px;
+    margin-bottom: 50px;
 }
 
 .menu__social-media-vk {
@@ -177,7 +180,10 @@ nav {
     flex-direction: column;
     align-items: center;
     max-width: 286px;
-    margin: 122px 16px 0 18px;
+    margin: 100px 16px 0  18px;
+    justify-content: space-around;
+    height: calc(100% - 172px);
+    padding-bottom: 50px;
 }
 
 .content__title {
