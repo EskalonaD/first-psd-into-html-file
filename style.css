@@ -929,6 +929,17 @@ bottom: 6px;
         width: 100vw;
     }
 
+    .wrapper-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .header {
+        width: 100%;
+    }
+
     .header__logo {
         background-image: url('img/logo768_2.png');
         background-size: 154px 45px;
