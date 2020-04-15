@@ -31,19 +31,19 @@ img {
 
 body {
     width: 320px;
+    margin: auto;
+    background-color: #aaa;
 }
 
 .big-wrapper {
-    background-image: url('img/wrapperBackground.png')
+    background-image: url('img/wrapperBackground.png');
 }
-  /*wrapper*/
 
+
+  /*wrapper*/
   .wrapper-main {
     width: 100%;
     height: 100vh;
-    
-
-
     background-image: url('./img/coty-17-lifestyle-2.png');
     background-position: -265px 0;
     text-align: center;
@@ -87,7 +87,6 @@ body {
     width: 34px;
     height: 24px;
     cursor: pointer;
-
 }
 
 .menu {
@@ -102,10 +101,6 @@ body {
     flex-direction: column;
     justify-content: space-between;
     padding: 23px 19px;
-
-    
-    
-    /* img again??? */
 }
 
 .menu__close-menu {
@@ -114,11 +109,12 @@ body {
     width: 25px;
     align-self: flex-end;
 }
+
 nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;    
+    align-items: center;
     height: 60%;
 }
 
@@ -174,7 +170,6 @@ nav {
     height: 22px;
 }
 
-
 .content {
     display: flex;
     flex-direction: column;
@@ -188,7 +183,6 @@ nav {
 
 .content__title {
     width: 100%;
-
     color: #ffffff;
     font-family: 'Playfair Display', serif;
     font-size: 48px;
@@ -226,82 +220,79 @@ nav {
     margin-top: 29px;
 }
 
-/*main-contetn css start*/
-
+/* main-contetn css start */
 .main-content {
-    
     padding-top: 74px;
     margin-bottom: 149px;
 }
 
-/* advantages css */
 
+/* advantages css */
 .advantage-block {
     margin-bottom: 40px;
     margin-left: 15px;
 }
-.advantages .number {
-    /* display: inline-block; */
-/* Style for "03" */
-/* vertical-align: top; */
-width: 83px;
-height: 58px;
-opacity: 0.26;
-color: #fea052;
-font-family: "Playfair Display";
-font-size: 85px;
-font-weight: bold;
-line-height: 43px;
-/* Text style for "0, 3" */
-letter-spacing: 0.28px;
-margin-bottom: 25px;
 
+.advantages .number {
+    /* Style for "03" */
+    width: 83px;
+    height: 58px;
+    opacity: 0.26;
+    color: #fea052;
+    font-family: "Playfair Display";
+    font-size: 85px;
+    font-weight: bold;
+    line-height: 43px;
+    /* Text style for "0, 3" */
+    letter-spacing: 0.28px;
+    margin-bottom: 25px;
 }
+
 .advantages h2 {
-    /* display: block; */
     /* Style for "Мы - профе" */
-width: 265px;
-height: 49px;
-color: #1a292f;
-font-family: "Raleway - Semi Bold";
-font-size: 24px;
-font-weight: normal;
-margin-bottom: 23px;
+    width: 265px;
+    height: 49px;
+    color: #1a292f;
+    font-family: "Raleway - Semi Bold";
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 23px;
 }
 
 .advantages .text-block {
     /* Style for "Ценовая по" */
-width: 280px;
-height: 138px;
-color: #838383;
-font-family: Raleway;
-font-size: 18px;
-font-weight: 300;
-line-height: 25px;
-/* Text style for "Ценовая по" */
-letter-spacing: 0.64px;
+    width: 280px;
+    height: 138px;
+    color: #838383;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    /* Text style for "Ценовая по" */
+    letter-spacing: 0.64px;
 }
 
-/* portfolio css */
 
+/* portfolio css */
 .portfolio {
     margin-bottom: 95px;
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .portfolio h2 {
     /* Style for "Портфолио" */
-width: 259px;
-height: 41px;
-color: #00203a;
-font-family: "Playfair Display";
-font-size: 45px;
-font-weight: 700;
-line-height: 28px;
-/* Text style for "П, ортфоли" */
-letter-spacing: 0.32px;
-padding-left:13px;
-margin-bottom: 42px;
+    width: 259px;
+    height: 41px;
+    color: #00203a;
+    font-family: "Playfair Display";
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 28px;
+    /* Text style for "П, ортфоли" */
+    letter-spacing: 0.32px;
+    padding-left:13px;
+    margin-bottom: 42px;
 }
 
 .portfolio-menu {
@@ -310,12 +301,10 @@ margin-bottom: 42px;
 }
 
 .portfolio li {
-
-
-color: #bababa;
-font-family: Raleway;
-font-size: 22px;
-margin-bottom: 31px;
+    color: #bababa;
+    font-family: Raleway;
+    font-size: 22px;
+    margin-bottom: 31px;
 }
 
 .portfolio li.active {
@@ -327,6 +316,7 @@ margin-bottom: 31px;
     font-size: 22px;
     font-weight: 400;
 }
+
 .portfolio-example .image-block {
     position: relative;
     margin-bottom: 25px;
@@ -349,7 +339,6 @@ margin-bottom: 31px;
     z-index: -2;
 }
 
-
 .portfolio-example .main {
     float: left;
 }
@@ -369,12 +358,6 @@ margin-bottom: 31px;
     right: -15px;
     width: 13px;
     height: 529px;
-    /* opacity: 0.8; */
-    /* clear: both;
-    display: block; */
-    /* margin-bottom: 25px; */
-    
-
 }
 
 .portfolio-example .text-block {
@@ -387,11 +370,8 @@ margin-bottom: 31px;
     font-weight: 400;
     /* Text style for "Дизайн инт" */
     letter-spacing: 0.64px;
-    /* clear: both; */
-    /* margin-top: 25px; */
     margin-left: 8px;
-    
-} 
+}
 
 
 /* Services css */
@@ -404,16 +384,16 @@ margin-bottom: 31px;
 
 .services h2 {
     /* Style for "Наши услуг" */
-width: 289px;
-height: 40px;
-color: #00203a;
-font-family: "Playfair Display";
-font-size: 45px;
-font-weight: 700;
-/* Text style for "Н, аши усл" */
-letter-spacing: 0.9px;
-line-height: 26px;
-margin-bottom: 39px;
+    width: 289px;
+    height: 40px;
+    color: #00203a;
+    font-family: "Playfair Display";
+    font-size: 45px;
+    font-weight: 700;
+    /* Text style for "Н, аши усл" */
+    letter-spacing: 0.9px;
+    line-height: 26px;
+    margin-bottom: 39px;
 }
 
 .services-menu {
@@ -423,20 +403,18 @@ margin-bottom: 39px;
 
 .services-menu li {
     /* Style for "Дизайн жил" */
-/* width: 280px; */
-/* height: 20px; */
-color: #7d7d7d;
-font-family: Raleway;
-font-size: 22px;
-font-weight: 300;
-margin-bottom: 35px;
+    color: #7d7d7d;
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 35px;
 }
 
 .services-menu .active {
     font-family: "Raleway - Semi Bold";
-font-size: 22px;
-font-weight: 400;
-color: #00203a;
+    font-size: 22px;
+    font-weight: 400;
+    color: #00203a;
 }
 
 .services-photo {
@@ -444,90 +422,85 @@ color: #00203a;
     margin-bottom: 33px;
 }
 
-/* properties line-height work well for alligning text only for 1-liners */
 .services-textblock {
     position: relative;
     top: -5px;
     color: #5e5e5e;
     font-family: Raleway;
-font-size: 20px;
-font-weight: 300;
-line-height: 30px;
-margin-bottom: 52px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 52px;
 }
 
-/* why I cant remove underline with text-decoration in div, only here? */
-/* margin-left 37px will suit better, because of content's margins (side margins with not equal 
-size definetly doesn't needed & mby don't needed ANY size margins grand parents elements) */
 .services-button {
     /* Style for "Прямоуголь" */
     display: block;
-width: 217px;
-height: 56px;
-border: 2px solid #112537;
-margin-left: auto; 
-margin-right: auto;
-text-decoration: none;
+    width: 217px;
+    height: 56px;
+    border: 2px solid #112537;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
 }
+
 .services-button div {
-/* Style for "КОНСУЛЬТАЦ" */
-width: 140px;
-height: 14px;
-color: #00203a;
-font-family: "Raleway";
-font-size: 15px;
-font-weight: 800;
-/* Text style for "КОНСУЛЬТАЦ" */
-letter-spacing: 2.25px;
-margin:  24px auto 18px;
-vertical-align: middle;
-line-height: 11px;
+    /* Style for "КОНСУЛЬТАЦ" */
+    width: 140px;
+    height: 14px;
+    color: #00203a;
+    font-family: "Raleway";
+    font-size: 15px;
+    font-weight: 800;
+    /* Text style for "КОНСУЛЬТАЦ" */
+    letter-spacing: 2.25px;
+    margin:  24px auto 18px;
+    vertical-align: middle;
+    line-height: 11px;
 }
 
 /* about-us CSS */
 
-/*why first background-image lay incorrect? */
 .about-us {
     display: block;
     width: 320px;
     height: 620px;
     background-image:  url('img/layout4.png'), url('img/47.png');
-    background-position: center; 
-    padding-top: 226px;   
+    background-position: center;
+    padding-top: 226px;
     text-decoration: none;
     margin-bottom: 114px;
-    
 }
 
 .about__button {
     /* Style for "Эллипс 1 к" */
-width: 84px;
-height: 84px;
-box-shadow: 5px 8px 21px 8px rgba(0, 1, 6, 0.07);
-background-color: #febc80;
-opacity: 0.95;
-margin-left: auto;
-margin-right: auto;
-border-radius: 50%;
-background-image: url('img/play_button.png');
-background-position: 35px center;
-background-repeat: no-repeat;
-margin-bottom: 33px;
+    width: 84px;
+    height: 84px;
+    box-shadow: 5px 8px 21px 8px rgba(0, 1, 6, 0.07);
+    background-color: #febc80;
+    opacity: 0.95;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    background-image: url('img/play_button.png');
+    background-position: 35px center;
+    background-repeat: no-repeat;
+    margin-bottom: 33px;
 }
 
 .about__text {
     /* Style for "О  студии" */
-width: 260px;
-height: 81px;
-color: #ffffff;
-font-family: Raleway;
-font-size: 22px;
-font-weight: 400;
-line-height: 30px;
-/* Text style for "О,   студи" */
-letter-spacing: 0.39px;
-margin-left: 32px;
-text-align: center;
+    width: 260px;
+    height: 81px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    /* Text style for "О,   студи" */
+    letter-spacing: 0.39px;
+    margin-left: 32px;
+    text-align: center;
 }
 
 /* work-plan CSS */
@@ -538,49 +511,50 @@ text-align: center;
 
 .work-plan__header {
     /* Style for "Этапы  раб" */
-width: 167px;
-height: 95px;
-color: #00203a;
-font-family: "Playfair Display";
-font-size: 45px;
-font-weight: 700;
-/* Text style for "Э, тапы  ," */
-letter-spacing: 0.32px;
-position: relative;
-top: -15px;
-margin: 0px 0px 49px 59px;
+    width: 167px;
+    height: 95px;
+    color: #00203a;
+    font-family: "Playfair Display";
+    font-size: 45px;
+    font-weight: 700;
+    /* Text style for "Э, тапы  ," */
+    letter-spacing: 0.32px;
+    position: relative;
+    top: -15px;
+    margin: 0px 0px 49px 59px;
 }
 
 .work-plan__block {
     margin-bottom: 50px;
 }
+
 .work-plan__block h3 {
     /* Style for "Консультац" */
-color: #313131;
-font-family: "Raleway - Semi Bold";
-font-size: 22px;
-font-weight: 400;
-line-height: 17.74px;
-margin-bottom: 14px;
+    color: #313131;
+    font-family: "Raleway - Semi Bold";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 17.74px;
+    margin-bottom: 14px;
 }
-
 
 .work-plan__block-separator {
     background-image: url('img/seporator.png');
     /* Style for "Фигура 2 к" */
-width: 42px;
-height: 1px;
-margin-bottom: 23px;
+    width: 42px;
+    height: 1px;
+    margin-bottom: 23px;
 }
 
 .work-plan__block p {
     /* Style for "Создаем ко" */
-color: #5e5e5e;
-font-family: Raleway;
-font-size: 18px;
-font-weight: 300;
-line-height: 25px;
+    color: #5e5e5e;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
 }
+
 .work-plan__block .text-doesnt-fit {
     margin-left: -4px;
 }
@@ -589,54 +563,51 @@ line-height: 25px;
 /* questionnaire CSS */
 .questionnaire {
     background-image: url('img/kitchen2.png');
-    
     /* Style for "kitchen2" */
-width: 320px;
-height: 911px;
-/* Style for "placeholde" */
-background-color:rgba(24,44,61,0.9);
-padding-top: 86px;
-display: flex;
-align-items: center;
-flex-direction: column;
+    width: 320px;
+    height: 911px;
+    /* Style for "placeholde" */
+    background-color:rgba(24,44,61,0.9);
+    padding-top: 86px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 
 }
 
 .questionnaire h2 {
-/* Style for "Мечтаете о" */
-/* align-items: center; */
-width: 276px;
-height: 144px;
-text-align: center;
-color: #ffffff;
-font-family: "Playfair Display";
-font-size: 45px;
-font-weight: 700;
-/* Text style for "М, ечтаете" */
-letter-spacing: 0.32px;
-position: relative;
-top: -10px;
-margin-bottom: 31px;
-line-height: 54px;
+    /* Style for "Мечтаете о" */
+    width: 276px;
+    height: 144px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Playfair Display";
+    font-size: 45px;
+    font-weight: 700;
+    /* Text style for "М, ечтаете" */
+    letter-spacing: 0.32px;
+    position: relative;
+    top: -10px;
+    margin-bottom: 31px;
+    line-height: 54px;
 }
 
 .questionnaire-textblock {
     /* Style for "Оставьте к" */
-width: 276px;
-height: 89px;
-opacity: 0.7;
-color: #ffffff;
-font-family: Raleway;
-font-size: 18px;
-font-weight: 400;
-line-height: 24px;
-/* Text style for "О, ставьте" */
-letter-spacing: 0.64px;
-text-align: center;
-white-space: pre-line;
-position: relative;
+    width: 276px;
+    height: 89px;
+    opacity: 0.7;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    /* Text style for "О, ставьте" */
+    letter-spacing: 0.64px;
+    text-align: center;
+    white-space: pre-line;
+    position: relative;
     bottom: 5px;
-    
 }
 .questionnaire-textblock{
     margin-bottom: 45px;
@@ -664,24 +635,16 @@ position: relative;
     border-radius: 1px;
 }
 
-
 input::placeholder {
-
-/* width: 44px; */
-/* height: 13px; */
-opacity: 0.8;
-color: #ffffff;
-font-family: Raleway;
-font-size: 18px;
-font-weight: 300;
-
-letter-spacing: 1.29px;
-/* margin: 0; */
-
-} 
+    opacity: 0.8;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1.29px;
+}
 
 [type='text']:focus {
-
     outline: 0;
 }
 
@@ -692,37 +655,37 @@ input{
 .last-text-input {
     margin-bottom: 58px;
 }
+
 [type='button'] {
-/* Style for "Прямоуголь" */
-width: 291px;
-height: 71px;
-box-shadow: 0 0 49px 19px rgba(0, 0, 1, 0.02);
-border-radius: 5px;
-background-color: #f8a25a;
-color: #ffffff;
-font-family: "Raleway - Extra Bold";
-font-size: 18px;
-font-weight: 400;
-line-height: 16.52px;
-/* Text style for "О, ТПРАВИТ" */
-letter-spacing: 2.62px;
-outline: 0;
-margin-bottom: 19px;
-/* border: none; */
+    /* Style for "Прямоуголь" */
+    width: 291px;
+    height: 71px;
+    box-shadow: 0 0 49px 19px rgba(0, 0, 1, 0.02);
+    border-radius: 5px;
+    background-color: #f8a25a;
+    color: #ffffff;
+    font-family: "Raleway - Extra Bold";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 16.52px;
+    /* Text style for "О, ТПРАВИТ" */
+    letter-spacing: 2.62px;
+    outline: 0;
+    margin-bottom: 19px;
 }
 
 .questionnaire-agreement {
     /* Style for "Нажимая на" */
-width: 272px;
-height: 54px;
-opacity: 0.7;
-color: #ffffff;
-font-family: Raleway;
-font-size: 16px;
-font-weight: 300;
-/* Text style for "Н, ажимая" */
-letter-spacing: 0.7px;
-text-align: center;
+    width: 272px;
+    height: 54px;
+    opacity: 0.7;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 300;
+    /* Text style for "Н, ажимая" */
+    letter-spacing: 0.7px;
+    text-align: center;
 }
 
 /* customer-feedback CSS */
@@ -739,19 +702,19 @@ text-align: center;
 
 .customer-feedback h2 {
     /* Style for "Отзывы  на" */
-width: 214px;
-height: 142px;
-color: #00203a;
-font-family: "Playfair Display";
-font-size: 45px;
-font-weight: 700;
-/* Text style for "О, тзывы" */
-letter-spacing: 0.32px;
-line-height: 53px;
-position: relative;
-bottom: 12px;
-margin-bottom: 37px;
-text-align: center;
+    width: 214px;
+    height: 142px;
+    color: #00203a;
+    font-family: "Playfair Display";
+    font-size: 45px;
+    font-weight: 700;
+    /* Text style for "О, тзывы" */
+    letter-spacing: 0.32px;
+    line-height: 53px;
+    position: relative;
+    bottom: 12px;
+    margin-bottom: 37px;
+    text-align: center;
 }
 
 .customer-information {
@@ -771,48 +734,46 @@ text-align: center;
 
 .customer-name {
     /* Style for "Александра" */
-width: 259px;
-height: 22px;
-color: #313131;
-font-family: "Raleway - Semi Bold";
-font-size: 24px;
-font-weight: 400;
-line-height: 30px;
-margin-bottom: 8px;
-text-align: center;
-
+    width: 259px;
+    height: 22px;
+    color: #313131;
+    font-family: "Raleway - Semi Bold";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 8px;
+    text-align: center;
 }
 
 .ordered-service {
     /* Style for "Услуга: ин" */
-width: 251px;
-height: 17px;
-color: #efb172;
-font-family: Raleway;
-font-size: 18px;
-font-weight: 700;
-/* Text style for "Услуга: ин" */
-letter-spacing: 1.4px;
-margin-bottom: 26px;
-text-align: center;
+    width: 251px;
+    height: 17px;
+    color: #efb172;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    /* Text style for "Услуга: ин" */
+    letter-spacing: 1.4px;
+    margin-bottom: 26px;
+    text-align: center;
 }
 
 .customer-feedback p {
     /* Style for "Спасибо ст" */
-width: 254px;
-height: 259px;
-color: #5e5e5e;
-font-family: Raleway;
-font-size: 20px;
-font-weight: 300;
-line-height: 30px;
-text-align: center;
-position: relative;
-bottom: 5px;
-margin-bottom: 102px;
-z-index: inherit;
+    width: 254px;
+    height: 259px;
+    color: #5e5e5e;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    position: relative;
+    bottom: 5px;
+    margin-bottom: 102px;
+    z-index: inherit;
 }
-
 
 .white-background {
     position: absolute;
@@ -824,19 +785,21 @@ z-index: inherit;
     height: 581px;
     z-index: 1;
 }
+
 .feedback-switcher {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 146px;
 }
+
 .switcher {
     /* Style for "Прямоуголь" */
-width: 26px;
-height: 3px;
-background-color: #1a444a;
-opacity: 0.21;
-/* margin-right: 14px; */
+    width: 26px;
+    height: 3px;
+    background-color: #1a444a;
+    opacity: 0.21;
+    /* margin-right: 14px; */
 }
 
 .feedback-switcher .active{
@@ -870,55 +833,32 @@ margin-bottom: 44px;
 
 .footer .address {
     /* Style for "BRUME inte" */
-width: 194px;
-height: 18px;
-color: #ffc487;
-font-family: Raleway;
-font-size: 20px;
-font-weight: 500;
-line-height: 30px;
-margin-bottom: 14px;
+    width: 194px;
+    height: 18px;
+    color: #ffc487;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 14px;
 }
 
 .footer .site-creator {
-/* Style for "HolodnayaD" */
-width: 165px;
-height: 19px;
-color: #ffc487;
-font-family: Raleway;
-font-size: 20px;
-font-weight: 500;
-line-height: 30px;
-position: relative;
-bottom: 6px;
+    /* Style for "HolodnayaD" */
+    width: 165px;
+    height: 19px;
+    color: #ffc487;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    position: relative;
+    bottom: 6px;
 }
 
-/* to do: fix all bugs from fonts. change advantages. finish portfolio sidings (both HTML & CSS) 
- change portfolio structure to full-size images
-  [type=button] to [type=submit]???
- fix selectors in Questinnaire section 
- check if input use was correct 
- correctly place the inputs after correcting the sidings 
- how to inspect distance in google developer tools
- add link tags where they are needed 
- set anchor-images to background???
-  */
- 
- 
- 
- /* how to: */
- /* vs-code give file path with "\" slashes. Can I switch it for "/" by default? Browser don't see files with "\" in directory */
- /* should nominate line-height in %, px or modifiars? */
- 
-/* shoud i leave space between one section and header of next one by using margin-bottom in previous one or by adjusting padding top in folllowing? */
-/* ask Danil direct steps for checking differencies actualising work-branch with master branch before merging */
-/* check distances i google chrome development tooles */
 
-
-
-
-@media screen and (min-width: 321px) /*and (max-width: 768px)*/ {
-    .big-wrapper {
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    /* .big-wrapper {
         width: 100vw;
     }
 
@@ -943,39 +883,20 @@ bottom: 6px;
     .header__logo {
         background-image: url('img/logo768_2.png');
         background-size: 154px 45px;
-        /* Style for "logo" */
         width: 154px;
         height: 45px;
     }
 
     .header__show-menu {
-        /* Style for "002-menu" */
         width: 64px;
         height: 44px;
-        /* background-color: #ffffff; */
         background-size: 64px 44px;
-    }
+    } */
 
- 
+
 }
-
-
-/*
- to do
-background for header... is this the same file or not?
-how can i type for same selectors but different screen resolution with small distance of textblocks? 
-give social-media icon same orgigin image
-*/
-
-/* to ASK:
-unseen menu in avocode??? screen-readers, mb???\
-commit policy
-*/
-
 
 
 @media screen and (min-width: 769px) {
 
 }
-
-
